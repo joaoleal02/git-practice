@@ -1,0 +1,32 @@
+html{
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+header{
+    height: 4rem;
+}
+
+header img{
+    margin-left: 1.5rem;
+    float: left;
+}
+
+header h3{
+    text-transform: uppercase;
+}
+
+header ul{
+    float: right;
+}
+
+header li{
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 1.25rem;
+}
+
+header b{
+    font-weight: 100;
+}
