@@ -12,10 +12,10 @@ body {
 
 header{
     height: 4rem;
-    border: solid 1px red;
     width: 100%;
     position: sticky;
     display: flex;
+    font-size: 1.5rem;
     align-items: center;
 
 }
@@ -29,7 +29,6 @@ header img{
 header h3{
     text-transform: uppercase;
     display: inline-block;
-    border: solid 1px red;
 }
 
 header ul{
@@ -40,12 +39,10 @@ header ul{
     margin: 0 1.5rem 0 auto;
     align-items: center;
     padding: 0;
-    border: solid 1px red;
 }
 
 header li{
     display: inline-block;
-    border: solid 1px red;
     margin: auto;
     
 }
@@ -56,7 +53,7 @@ header b{
 
 .top{
     background-color: lightgray;
-    padding: 2rem 1.5rem;
+    padding: 2rem 0rem 2rem 1.5rem ;
     width: 100%;
     display: flex;
 
@@ -65,19 +62,21 @@ header b{
 .top img{
     width: 60%;
     display: inline-block;
-    border: solid 1px red;
     margin-right: 1.5rem;
 }
 
 div.aside-text{
     width: 30%;
     display: inline-block;
-    border: solid 1px red;
     display: flex;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+}
+
+.aside-text h1{
+    font-size: 2rem;;
 }
 
 .aside-text h4{
@@ -87,9 +86,178 @@ div.aside-text{
     font-weight: 50;
     text-align: center;
     width: 100%;
+    font-size: 1.5rem;
     border-radius: 2px;
 }
 
 .aside-text h3{
     font-weight: 100;
+    font-size:1.5rem;
+}
+
+.middle-1 img{
+    width: 100%;
+    margin: 2rem 1.5rem 2rem 0rem;
+}
+
+.middle-container-left{
+    width: 60%;
+    margin-right: 1.5rem;
+}
+
+.middle-1{
+    display: flex;
+    padding-left: 1.5rem;
+}
+
+.middle-text{
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.middle-text p{
+    padding-top: 1.5rem;
+}
+
+.middle-text h1{
+    font-weight: 1000;
+}
+
+.middle-container-right{
+    width: 40%;
+}
+
+.right-1 img,.right-2 img,.right-3 img{
+    width: 35%;
+    height: auto;
+    display: inline-block;
+
+}
+
+.right-1,.right-2,.right-3{
+    margin-left: 1rem;
+    display: flex;
+
+}
+
+.right-1-text, .right-2-text, .right-3-text{
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.25rem;
+    width: 65%;
+}
+
+p#read-more{
+    color: lightseagreen;
+}
+
+.single-text{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;;
+    padding: 2rem 0rem;
+}
+
+.middle-2{
+    background-color: lightgray; 
+    padding-bottom: 2rem;
+}
+
+.box-container{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    row-gap: 2rem;
+    justify-content: space-around;
+}
+
+.box-1, .box-2,.box-3, .box-4,.box-5, .box-6{
+    display: inline-block;
+    background-color: white;
+    width:30%;
+}
+
+.box-container img{
+    height: auto;
+    width: 100%;
+}
+
+.box-container h4{
+    color: darkslategray;
+}
+
+.box-container p{
+    color: darkslategray;
+}
+
+.box-text{
+    padding: 1rem;
+}
+
+.box-text h4{
+    margin:0.5rem 0;
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    padding-left: 1.5rem;
+}
+
+.bottom-container-left{
+    width: 60%;
+}
+
+video{
+    width: 100%;
+}
+
+.bottom-container-right{
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    align-items: end;
+}
+
+.bottom-container-right img{
+    width: 35%;
+    margin: 1rem;
+}
+
+.bottom-1, .bottom-2{
+    display: flex;
+    align-items: center;
+}
+
+.bottom-1-text, .bottom-2-text{
+    margin-left: 0.5rem;
+}
+
+.bottom-text{
+    margin: 1.5rem 0 2rem 0rem;
+}
+
+.bottom-text p{
+    margin-top: 0.5rem;
+}
+
+footer{
+    padding: 1rem 2rem;
+    border-top: 1px lightgray solid;
+}
+footer p{
+    display: inline-block;
+}
+
+footer ul{
+    float: right;
+    display: flex;
+    gap: 1rem;
+}
+
+footer li{
+    display: inline-block;
 }
