@@ -2,6 +2,10 @@ html{
     font-size: 16px;
     font-family: 'Hind Vadodara', sans-serif;
 }
+*{
+    margin:0;
+    padding: 0;
+}
 body {
     margin: 0px 0px 0px 0px;
   }
@@ -11,6 +15,9 @@ header{
     border: solid 1px red;
     width: 100%;
     position: sticky;
+    display: flex;
+    align-items: center;
+
 }
 
 header img{
@@ -22,19 +29,24 @@ header img{
 header h3{
     text-transform: uppercase;
     display: inline-block;
+    border: solid 1px red;
 }
 
 header ul{
     float: right;
-    margin-right: 1.5rem;
+    display: flex;
+    gap: 1rem;
     height: 100%;
-
+    margin: 0 1.5rem 0 auto;
+    align-items: center;
+    padding: 0;
+    border: solid 1px red;
 }
 
 header li{
-    display: flex;
     display: inline-block;
-    margin-left: 1.25rem;
+    border: solid 1px red;
+    margin: auto;
     
 }
 
@@ -45,6 +57,7 @@ header b{
 .top{
     background-color: lightgray;
     padding: 2rem 1.5rem;
+    width: 100%;
     display: flex;
 
 }
@@ -56,20 +69,27 @@ header b{
     margin-right: 1.5rem;
 }
 
-.aside-text{
+div.aside-text{
     width: 30%;
     display: inline-block;
     border: solid 1px red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .aside-text h4{
     background-color: darkslategrey;
     padding: 0.5rem 0;
-    text-align: center;
     color: white;
     font-weight: 50;
+    text-align: center;
+    width: 100%;
+    border-radius: 2px;
 }
 
-.aside-text h1{
-    font-weight: 700;
+.aside-text h3{
+    font-weight: 100;
 }
