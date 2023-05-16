@@ -29,6 +29,7 @@ h1{
 
 .box-1, .box-2{
     width: 25rem;
+    position: relative;
     height: 17rem;
     display: flex;
     background-color: darkgray;
@@ -43,8 +44,4 @@ h1{
 
 .box-2 a{
     border: 1px red solid;
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
 }
